@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html><head>
+  <link rel="icon" href="http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/IIScLogo.jpg">
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link type="text/css" rel="stylesheet" href="http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/css/extras.css" media="screen,projection" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connected Components</title>
+</head><body><header>
+
+  <ol id="dropdown1" class="dropdown-content">
+  
+  <li> <a href=http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/assignments/connected-components/>Connected Components</a> (20/8/2019). </li>
+  
+  <li> <a href=http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/assignments/homotopy-fundamental-group/>Homotopy and Fundamental Groups</a> (17/9/2019). </li>
+  
+  <li> <a href=http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/assignments/graphs-free-products/>Graphs and Free Products</a> (7/11/2019). </li>
+  
+</ol>
+<nav>
+  <div class="nav-wrapper">
+    <span class="brand-logo">
+      &nbsp; MA 232
+      <a href="http://math.iisc.ac.in/~gadgil">(Siddhartha Gadgil)</a></span>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/index.html">Home</a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Assignments<i
+            class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a href="http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/assignments/">All Assignments</a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/index.html">Home</a></li>
+  <li><a href="http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/assignments/">Assignments</a></li>
+</ul>
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$', '$'] ],
+      displayMath: [ ['$$', '$$']],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea']
+    },
+    messageStyle: "none",
+    "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+    });
+    </script>
+</header><main>
+        <div class="container" id="content">
+
+<h3 class="center-align">Connected Components</h3>
+
+<h5 class="center-align"> due by Tuesday, Aug 20, 2019 </h5>
+
+
+ <p>In the following you may use basic properties of connected sets and continuous functions.</p>
+
+<ol>
+<li>Let $X$ be a topological space. Show that $X$ can be <em>uniquely</em> expressed as the <em>disjoint union</em>
+<code>$$X = \coprod_{\alpha\in A} X_\alpha$$</code>
+such that for each <code>$\alpha\in A$</code>, <code>$X_\alpha\subset X$</code> is non-empty and connected and such that if $Z\subset X$ is connected then $Z \subset X_\alpha$ for some $\alpha\in A$. We call the sets <code>$X_\alpha$</code> the connected components of $X$.</li>
+<li>For a topological space $X$, define $F(X)$ to be the <em>set</em> of connected components of $X$. For $X$ and $Y$ topological spaces and $f: X\to Y$
+a continuous function from $X$ to $Y$, show that there is a well-defined function $f_* = F(f): F(X)\to F(Y)$.</li>
+<li>Show that $F$ defined as above is a <em>functor</em> from topological spaces to sets, i.e. compositions and identities are respected.</li>
+<li>Let $X$ be a connected topological space and $A\subset X$ a subspace that is not connected. What can you say about the cardinalities of $F(X)$ and $F(A)$?</li>
+<li>Let $X$ be a connected topological space and $A\subset X$ a subspace that is not connected. Using (3) and (4) above (but no other properties of connectivity), show that there is no continuous function $r: X \to A$ such that, for $a \in A$, $r(a) = a$.
+<br /></li>
+</ol>
+
+
+
+        </div>
+    </main><footer class="page-footer">
+  <div class="row">
+    <h5 class="white-text"> &nbsp; <a class="grey-text text-lighten-3" href="http://math.iisc.ac.in">Department of
+        Mathematics, </a>
+      <a class="grey-text text-lighten-3" href="https://iisc.ac.in">Indian Institute of Science. </a></h5>
+  </div>
+
+</footer>
+
+<script type="text/javascript" src="http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/js/materialize.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, {});
+    var elem = document.querySelector('.dropdown-trigger')
+    M.Dropdown.init(elem, { hover: true });
+  });
+
+
+</script></body>
+</html>
