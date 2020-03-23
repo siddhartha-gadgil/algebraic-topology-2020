@@ -1,2 +1,5 @@
+#!/bin/bash
+set -e
+./mknotes.sh
 hugo
 rsync -avz public/ math.iisc.ac.in:/home/gadgil/public_html/algebraic-topology-2020/
