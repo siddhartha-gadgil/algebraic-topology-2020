@@ -1,6 +1,6 @@
 +++
 title="Free resolutions"
-date=2020-04-26
+date=2020-03-26
 +++
 
 Homology and cohomomolgy of modules, which are $Ext$ ant $Tor$ in the universal coefficients theorem, are defined in terms of _free resolutions_. Here we define these and sketch the proofs of their existence and uniqueness.
