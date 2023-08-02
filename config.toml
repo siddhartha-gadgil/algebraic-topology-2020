@@ -1,4 +1,4 @@
-baseURL = "http://math.iisc.ac.in/~gadgil/algebraic-topology-2020/"
+baseURL = "https://math.iisc.ac.in/~gadgil/algebraic-topology-2020/"
 languageCode = "en-us"
 title = "MA 332: Algebraic Topology"
 theme = "course"

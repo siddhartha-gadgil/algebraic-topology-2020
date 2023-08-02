@@ -12,7 +12,7 @@ __Cohomology__ : Comology groups, relative cohomology, cup products, cap product
 
 #### Suggested books: 
 
-We will be following Hacher's book (available [online](http://pi.math.cornell.edu/~hatcher/AT/AT.pdf)).
+We will be following Hacher's book (available [online](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf)).
 
 1. Hatcher, A., Algebraic Topology, Cambridge Univ. Press, 2002 (Indian edition is available).
 2. Rotman, J, An Introduction to Algebraic Topology, Graduate Texts in Mathematics, 119, Springer-Verlag, 1988.
